@@ -199,15 +199,25 @@ class HashTable:
 
         Implement this.
         """
-        new_value_array = []
-        self.capacity = new_capacity
-        
+        # new_value_array = []
+        # self.capacity = new_capacity
+
         
 
 
 
 new_hash = HashTable()
 new_hash.put('mustang', '420hp')
+new_hash.put('camaro', '455hp')
+new_hash.put('challenger', '460hp')
+new_hash.put('charger', '465hp')
+new_hash.put('corvette', '550hp')
 print(new_hash.get('mustang'))
+print(new_hash.get('camaro'))
+print(new_hash.get('challenger'))
+print(new_hash.get('charger'))
+print(new_hash.get('corvette'))
+# print(new_hash.delete('mustang'))
+# print(new_hash.get('mustang'))
 
 
